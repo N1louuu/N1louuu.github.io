@@ -1,0 +1,77 @@
+* {margin: 0px;}
+
+.hover_thing {
+    transition: background-color .2s;
+}
+
+.hover_thing:hover {
+    background-color: rgba(0, 0, 0, 0.245);
+}
+
+.orange_text {
+    color: rgb(220, 110, 6);
+}
+
+.purple_text {
+    color: rgb(141, 0, 201);
+}
+
+.skills p {
+    font-size: 24px;
+}
+
+@keyframes cycle1 {
+    0%   {transform: translateY(0px) translateX(0px)}
+    25%  {transform: translateY(0px) translateX(100%)}
+    50%  {transform: translateY(130%) translateX(100%)}
+    75%  {transform: translateY(130%) translateX(0px)}
+    100% {transform: translateY(0px) translateX(0px)}
+}
+
+.cycle_img1 {
+    animation-name: cycle1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cycle2 {
+    0%   {transform: translateY(0px) translateX(0px)}
+    25%  {transform: translateY(100%) translateX(0px)}
+    50%  {transform: translateY(100%) translateX(-100%)}
+    75%  {transform: translateY(0px) translateX(-100%)}
+    100% {transform: translateY(0px) translateX(0px)}
+}
+
+.cycle_img2 {
+    animation-name: cycle2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cycle3 {
+    0%   {transform: translateY(0px) translateX(0px)}
+    25%  {transform: translateY(-100%) translateX(0px)}
+    50%  {transform: translateY(-100%) translateX(100%)}
+    75%  {transform: translateY(0px) translateX(100%)}
+    100% {transform: translateY(0px) translateX(0px)}
+}
+
+.cycle_img3 {
+    animation-name: cycle3;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cycle4 {
+    0%   {transform: translateY(0px) translateX(0px)}
+    25%  {transform: translateY(0px) translateX(-100%)}
+    50%  {transform: translateY(-170%) translateX(-100%)}
+    75%  {transform: translateY(-170%) translateX(0px)}
+    100% {transform: translateY(0px) translateX(0px)}
+}
+
+.cycle_img4 {
+    animation-name: cycle4;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
